@@ -1,0 +1,14 @@
+
+.container .panel-info .panel-heading{
+    background-color: black;
+    color: white;
+    border: white;
+    
+}
+
+.container .text-right, th{
+    background-color: black;
+    color: white;
+    
+}
+

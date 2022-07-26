@@ -1,0 +1,111 @@
+
+
+.navbar-default {
+  background-color: black;
+  border-color: orange ;
+  border-width: 5px;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ecdbff;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ecdbff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ecdbff;
+  background-color: rgb(228, 151, 7);
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ecdbff;
+  background-color: #2980b9;
+}
+.navbar-default .navbar-toggle {
+  border-color: #2980b9;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #2980b9;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #ecdbff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ecdbff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ecdbff;
+    background-color: orange;
+  }
+}
+
+/*Nueva factura*/
+.container .panel-heading{
+  color: white;
+  background-color: black;
+  border-color: black;
+  border-width: 5px;
+}
+
+.btn-primary{
+  background-color: orange;
+  border-color: black;
+}
+
+.btn{
+  color: white;
+  background-color: orange;
+  border-color: black;
+}
+
+.btn:focus{
+  color: white;
+  background-color: rgb(252, 226, 178);
+  border-color: black;
+}
+
+.btn:hover{
+  color: orange;
+background-color: white;
+}
+.btn:active{
+  color: white;
+background-color: black;
+}
+
+.container .outer_div .tr {
+  color: whites;
+  background-color: black;
+}
